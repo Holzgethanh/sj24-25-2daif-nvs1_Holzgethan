@@ -9,18 +9,20 @@ b. /27 192.168.0.32 - 192.168.0.64
 c. /27 192.168.0.65 - 192.168.0.96
 d. /25 192.168.0.98 - 192.168.0.225
 
-## Übung 2
+## Übung 2 
 
 Teile das Netz 193.170.20.0 /24 in 8 gleich große Netze! Erstelle eine Tabelle mit folgenden Angaben:
 Netzwerkadresse,               nutzbare Hosts,                    Broadcastadresse,              Subnetzmaske.
 
-193.170.20.0                   62                                 193.170.20.63                  /26
+Netzadresse               nutzbare Hosts                   Brodcastadresse           Subnetzmaske
+
+193.170.20.0              62                               193.170.20.63              /26
                   
-193.170.20.64                  62                                 193.170.20.127                 /26
+193.170.20.64             62                               193.170.20.127             /26
                   
-193.170.20.128                 62                                 193.170.20.191                 /26
+193.170.20.128            62                               193.170.20.191             /26
                   
-193.170.20.192                 62                                 193.170.20.255                 /26
+193.170.20.192            62                               193.170.20.255             /26
                  
 
 ## Übung 3
@@ -29,9 +31,11 @@ Netzwerkadresse,               nutzbare Hosts,                    Broadcastadres
 Erstelle eine Tabelle mit folgenden Angaben:
 Netzwerkadresse,               nutzbare Hosts,                    Broadcastadresse,              Subnetzmaske.
 
-172.28.40.0                    30                                 172.28.40.31                   /27 
+Netzadresse               nutzbare Hosts                    Brodcastadresse          Subnetzmaske
+
+172.28.40.0               30                                172.28.40.31             /27 
                     
-172.26.40.32                   30                                 172.26.40.63                   /27
+172.26.40.32              30                                172.26.40.63              /27
                     
 
 ## Übung 4
