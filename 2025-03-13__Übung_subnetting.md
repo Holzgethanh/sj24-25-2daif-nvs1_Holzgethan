@@ -5,8 +5,11 @@
 Bilde aus dem Netz 192.168.0.0 /24 4 Subnetze. Netze mit Mindestzahl an nutzbaren Host aber nicht darunter wählen: Netz a mit 20, Netz b mit 15, Netz c mit 30, und das Netz d mit den Rest Anteil der Netzwerkadressen.
 
 a. /27 192.168.0.0 - 192.168.0.31
+
 b. /27 192.168.0.32 - 192.168.0.64
+
 c. /27 192.168.0.65 - 192.168.0.96
+
 d. /25 192.168.0.98 - 192.168.0.225
 
 ## Übung 2 
