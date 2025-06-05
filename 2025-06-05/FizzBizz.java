@@ -7,7 +7,7 @@ public class FizzBizz{
                 System.out.println("Fizz");
             }
             else if(zahl % 5 == 0){
-                System.out.println("Buzz");
+                System.out.println("Bizz");
             }
             else{
                 System.out.println(zahl);
