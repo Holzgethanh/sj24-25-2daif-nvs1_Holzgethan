@@ -1,0 +1,1 @@
+Ich habe mir den Befehl <progress> ausgesucht. Dieser Befehl kann einen Fortschrittsbalken für z.B. eine Aufgabe anzeigen lassen
