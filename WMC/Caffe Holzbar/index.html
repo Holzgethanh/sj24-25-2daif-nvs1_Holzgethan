@@ -3,25 +3,92 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caffe Holzbar</title>
-    <link rel="stylesheet" href="..\Css\stylesheet.css">
-    <nav>
-        <ul>
-            <li><a href="#home">Menü</a></li>
-            <li><a href="#spk">Speisekarte</a></li>
-            <li><a href="#feed">Bewertung</a></li>
-        </ul>
-    </nav>
+    <link rel="stylesheet" href="./Css/stylesheet.css">
+    <header>
+        <h1><b> <a href="#home">Café Holzmann</a></b></h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Start</a></li>
+                <li><a href="#spk">Speisekarte</a></li>
+                <li><a href="#feed">Bewertung</a></li>
+            </ul>
+        </nav>
+    </header>
 </head>
 <body>
-    <h1><b>Caffe Holzbar</b></h1>
     <section id="home">
         <div><h3><b>Öffnungszeiten:</b></h3></div>
         <div>MO-FR: 09:00-20:00Uhr <br> SA: 09:00-18:00Uhr</div>
         <div><h3><b>Standort:</b></h3></div>
         <div>Kirschbaumalle 3/580 Gemsberg</div>
     </section>
-    <section>
+    <section id="spk">
+        <h2 id="eat">Speisekarte:</h2>
+        <p id="g">
+            <h3>Getränke:</h3>
+            <div class="gm">
+                <span class="gi">Wasser still/prickelnd</span>
+                <span class="gip">1.50€</span>
+            </div>
+            <div class="gm">
+                <span class="gi">Coca Cola</span>
+                <span class="gip">2.00€</span>
+            </div>
+            <div class="gm">
+                <span class="gi">Caffe nach Whal</span>
+                <span class="gip">5.00€</span>
+            </div>
+            <div class="gm">
+                <span class="gi">Heiße Schokolade</span>
+                <span class="gip">4.50€</span>
+            </div>
+            <div class="gm">
+                <span class="gi">Tee nach Whal</span>
+                <span class="gip">6.40€</span>
+            </div>
+        </p>
+        <p id="sp">
+            <h3>Speisen:</h3>
+            <div class="sm">
+                <span class="si">Omelett mit Schinen und Paprikastückchen</span>
+                <span class="sip">10.00€</span>
+            </div>
+            <div class="sm">
+                <span class="si">Schinken Brot</span>
+                <span class="sip">8.20€</span>
+            </div>
+            <div class="sm">
+                <span class="si">Käsespätzle mit Röstzwiebeln</span>
+                <span class="sip">13.80€</span>
+            </div>
+            <div class="sm">
+                <span class="si">Schnitzel von Schwein/Pute mit Pommes/Kartoffeln</span>
+                <span class="sip">15.90€</span>
+            </div>
+        </p>
+        <p id="suep">
+            <h3>Süßspeisen:</h3>
+            <div class="sum">
+                <span class="sui">Kuchen nach Wahl</span>
+                <span class="suip">9.20€</span>
+            </div>
+            <div class="sum">
+                <span class="sui">Palatschinken mit Marillenmarmelade und Schokosoße</span>
+                <span class="suip">11.99€</span>
+            </div>
+            <div class="sum">
+                <span class="sui">Kaiserschmarrn mit Rousienen</span>
+                <span class="suip">13.20€</span>
+            </div>
+        </p>
 
+    </section>
+    <section id="feed">
+        <h2>Geben Sie uns Feedback!</h2>
+        <textarea class="input_text" placeholder="Geben Sie hier Ihre Rezension ein..."></textarea>
+        <p>
+            <button type="button"><a href="#home">Senden</a></button>
+        </p>
     </section>
 </body>
 </html>
