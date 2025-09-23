@@ -118,12 +118,13 @@ button{
 #foot{
     display: flex;
     align-items: center;
-    flex-direction:column;
-    display: flex;
     justify-content: center;
+    flex-direction: column;
     background: beige;
-    width: 115%;
-    margin: -70;
+    width: 125%; 
+    margin: -170; 
+    padding: 50px;
+    text-align: center;
 }
 
 
