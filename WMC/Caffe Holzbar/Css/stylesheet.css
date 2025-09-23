@@ -5,7 +5,7 @@ html, body{
     text-align:center;
 }
 html {
-  scroll-padding-top: 70px;
+  scroll-padding-top: 70px;  /*KI einsatz*/
   background: bisque; 
 }
 h1{
@@ -49,7 +49,7 @@ header, nav, ul, li{
     flex-direction: row;
     font-size: medium;
 }
-nav, ul{
+nav, ul{  /*Methode mithilfe von KI einsatz*/
     gap: 30px;
     margin-right: 20px;
 }
@@ -87,26 +87,26 @@ textarea{
     border-color: black;
     border-radius: 10px;
     border-width: 2px;
-    resize: none;
+    resize: none;   /*Mithilfe von KI einsatz*/
 }
 
-.sm, .gm, .sum{
-    display: table;
+.sm, .gm, .sum{ /*Methode mithilfe von KI einsatz*/
+    display: table; 
     width: 100%;
     max-width: 500px;
     margin-bottom: 8px;
 }
-.si, .sip, .gi, .gip, .sui, .suip{
+.si, .sip, .gi, .gip, .sui, .suip{ /*Methode mithilfe von KI einsatz*/
     display: table-cell;
 }
-.sip, .gip, .suip{
+.sip, .gip, .suip{ /*Methode mithilfe von KI einsatz*/
     text-align: right;
     padding-left: 30px;
 }
 #spk{
     display: flex;
     flex-direction: column;
-    text-align: left;
+    text-align:left;
 }
 #eat{
     text-align: center;
@@ -114,6 +114,16 @@ textarea{
 button{
     border-radius: 10px;
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 125%;
+    height: 70px;
+    background: beige;
+    margin: -70;
+}
+
 
 
 
