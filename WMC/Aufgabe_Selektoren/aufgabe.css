@@ -1,0 +1,32 @@
+        /* AUFGABE 1: 1>Paragraph 1 in der ersten Section */
+        /*#sec1 .class-1{
+                color: gold; 
+        }*/
+        /* AUFGABE 2: selektiere 3>Paragraph Z   */
+        /*#sec2 #id3 .class-2{
+              color: gold;   
+        }*/
+        /* AUFGABE 3: 2>Paragr aph in erster und zweiter Section */
+        /*.class-2:nth-of-type(2){
+                color: gold;
+        }*/
+        /* AUFGABE 4: 3>Paragraph Z in der zweiten section */
+        /*.class-2:nth-of-type(1){
+                color: gold;
+        }*/
+        /* AUFGABE 5: alle gruenen list items */
+        /*.green ul{
+                color: gold;
+        }*/
+        /* AUFGABE 6: jeweils die ersten beiden list items */
+        /*section li:nth-of-type(1){
+                color:gold;
+        }*/
+        /* AUFGABE 7: jeweils die ersten beiden list items der blauen und gruenen section */
+        /*div:not(.red div) li:nth-of-type(-n+2){
+                color: gold;
+        }*/ 
+        /* AUFGABE 8: Paragraphs in den ersten beiden sections */
+        /*.green p:nth-of-type(n+1){
+                color: gold;
+        }*/
