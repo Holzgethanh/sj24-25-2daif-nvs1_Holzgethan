@@ -1,6 +1,4 @@
 html, body{
-    margin: 33;
-    padding: 0;
     height: 100%;
     text-align:center;
 }
@@ -74,11 +72,12 @@ section{
     background-position: center;
     background-size:cover;
     background-attachment:fixed;
+    margin: 33;
 }
 #feed{
+     display: flex;
     align-items: center;
     flex-direction:column;
-    display: flex;
     justify-content: center;
 }
 textarea{
@@ -107,6 +106,8 @@ textarea{
     display: flex;
     flex-direction: column;
     text-align:left;
+    justify-content: center;
+    align-items: center;
 }
 #eat{
     text-align: center;
@@ -121,10 +122,8 @@ button{
     justify-content: center;
     flex-direction: column;
     background: beige;
-    width: 125%; 
-    margin: -170; 
-    padding: 50px;
-    text-align: center;
+    margin-left: -10px;
+    margin-right: -10px;
 }
 
 
