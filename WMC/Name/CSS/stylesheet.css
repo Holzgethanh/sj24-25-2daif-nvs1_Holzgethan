@@ -184,7 +184,7 @@ nav ul li a[href="./index.html"]{
     margin-top: 20px;
 }
 input{
-    border-radius: 5px;
+    border-radius: 10px;
     background-color: #4CAF50;
 }
 /*media querys*/
