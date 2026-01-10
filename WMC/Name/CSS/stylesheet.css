@@ -13,7 +13,7 @@ header{
     position: static;
     top: 0;
     left: 0;
-    background: linear-gradient(rgba(0, 30, 10, 0.9), rgba(0, 20, 5, 0.9)), url(/Bilder_Videos/Hintergrund.png);
+    background: linear-gradient(rgba(0, 30, 10, 0.9), rgba(0, 20, 5, 0.9)), url(../Bilder_Videos/Hintergrund.png);
     background-position: center;
     background-size: cover;
    
