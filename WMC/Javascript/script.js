@@ -34,10 +34,18 @@ thHeight.addEventListener("click", () => {
 
 
 const id = document.querySelector("#id");
+const clicked = 0;
 id.addEventListener("click", () => {
+    if (clicked %2 !== 0) {
     console.log("id clicked!!");
     persons.sort((a, b) => a.id - b.id);
     renderPersons();
+    } else {
+        console.log("id clicked!!");
+        persons.sort((a, b) => b.id - a.id);
+        renderPersons();
+    }
+    clicked++;
 });
 
 const name = document.querySelector("#name");
@@ -50,7 +58,7 @@ name.addEventListener("click", () => {
 const gebjahr = document.querySelector("#gebjahr");
 gebjahr.addEventListener("click", () => {
     console.log("gebjahr clicked!!");
-    persons.sort((a, b) => new Date(a.geburtsdatum) - new Date(b.geburtsdatum));
+    persons.sort((a, b) => a.gebjahr.localeCompare(b.gebjahr));
     renderPersons();
 });
 
