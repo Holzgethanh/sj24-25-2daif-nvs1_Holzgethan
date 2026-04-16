@@ -51,7 +51,7 @@ name.addEventListener("click", () => {
 const gebjahr = document.querySelector("#gebjahr");
 gebjahr.addEventListener("click", () => {
     console.log("gebjahr clicked!!");
-    persons.sort((a, b) => new Date(a.geburtsdatum) - new Date(b.geburtsdatum));
+    persons.sort((a, b) => a.geburtsdatum.localeCompare(b.geburtsdatum));
     renderPersons();
 });
 
