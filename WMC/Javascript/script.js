@@ -1,4 +1,4 @@
-import persons from "./persons.json" with { type: "json" };
+import persons from "./Persons.json" with { type: "json" };
 console.log(persons);
 
 // "id": 6,
@@ -31,9 +31,9 @@ thHeight.addEventListener("click", () => {
     persons.sort((a, b) => a.groesse - b.groesse);
     renderPersons();
 });
-window.renderPersons = renderPersons;
 
-const id= document.querySelector("#id");
+
+const id = document.querySelector("#id");
 id.addEventListener("click", () => {
     console.log("id clicked!!");
     persons.sort((a, b) => a.id - b.id);
@@ -70,5 +70,5 @@ gewicht.addEventListener("click", () => {
 
 
 
-
+window.renderPersons = renderPersons;
 renderPersons();
