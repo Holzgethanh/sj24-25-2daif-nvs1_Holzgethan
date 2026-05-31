@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Budget-Planer</title>
+    <link rel="stylesheet" href="./CSS/stylesheet.css">
+    <!-- Defer sorgt dafür, dass das Skript erst nach dem HTML geladen wird -->
+    <script src="./JavaScript/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>💰 Budget-Master</h1>
+    </header>
+
+    <main>
+        <!-- Bereich für Budget-Einstellungen -->
+        <section id="settings-section">
+            <h2>Einstellungen</h2>
+            <div class="input-group">
+                <label for="budget-input">Gesamt-Budget (€):</label>
+                <input type="number" id="budget-input" placeholder="z.B. 500">
+            </div>
+            <div class="input-group">
+                <label for="period-select">Zeitraum:</label>
+                <select id="period-select">
+                    <option value="Tag">Tag</option>
+                    <option value="Woche">Woche</option>
+                    <option value="Monat" selected>Monat</option>
+                    <option value="Jahr">Jahr</option>
+                </select>
+            </div>
+            <button id="save-settings-btn">Budget festlegen</button>
+        </section>
+
+        <!-- Bereich für neue Ausgaben -->
+        <section id="input-section">
+            <h2>Neue Ausgabe</h2>
+            <div class="input-group">
+                <input type="text" id="expense-name" placeholder="Was hast du gekauft?">
+                <input type="number" id="expense-amount" placeholder="Betrag in €">
+                <input type="datetime-local" id="expense-date">
+                <button id="add-expense-btn">Hinzufügen</button>
+            </div>
+        </section>
+
+        <!-- Zusammenfassung & Warnungen -->
+        <section id="summary-section">
+            <div id="status-display" class="info-card">
+                <p id="budget-info">Lade Daten...</p>
+                <!-- Hier kommt deine Warnmeldung rein -->
+                <p id="warning-message" class="hidden"></p>
+            </div>
+        </section>
+
+        <!-- Liste der Ausgaben -->
+        <section id="list-section">
+            <h2>Deine Ausgaben</h2>
+            <ul id="expense-list">
+                <!-- Einträge werden via JavaScript (render-Funktion) erzeugt -->
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
